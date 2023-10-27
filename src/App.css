@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+.AppBar-root {
+  background-color: #213067;
+}
+.headerMiddle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+  font-family: 'Hanken Grotesk',sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLogIn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: auto;
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-transform: none;
+}
+
+.headerLogo {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.toolbar {
+  margin: 1px;
+  background-color: #1c2135;
+}
+
+.headerLog {
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-transform: none;
+}
+
+header .headerSignUp {
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-transform: none;
+  border: 2px solid white;
+}
+header .MuiButtonBase-root {
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-transform: none;
+  font-weight: bold;
+}
+
+body {
+  background-color: #faeddc;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  color: var(--black);
+  font-family: Hanken Grotesk,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.headline-emphasis{
+  color: #cd4e78;
+  font-family: Georgia,Times,Times New Roman,serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.h1 {
+  color: #000;
+  letter-spacing: -.48px;
+  font-size:96px;
+  font-weight: 700;
+  line-height: 95%;
+  font-family: 'Hanken Grotesk' ,sans-serif;
+}
+
+.content-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1075px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lg {
+  margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+p {
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Hanken Grotesk,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.content-container .App-header .btn-primary {
+  color: #fff;
+  text-align: center;
+  transform-style: preserve-3d;
+  background-color: #294eb2;
+  border-radius: 3px;
+  justify-content: center;
+  align-self: center;
+  padding: 15px 30px;
+  font-family: Hanken Grotesk,sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  transition: transform .3s;
+}
+
+.content-container .App-header .btn-primary-outline {
+  color: #294eb2;
+  transform-style: preserve-3d;
+  background-color: transparent;
+  border: 3px solid #294eb2;
+  border-radius: 3px;
+  align-self: center;
+  padding: 12px 40px;
+  font-family: Hanken Grotesk,sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  transition: transform .3s;
+}
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button-container {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-content: center;
+  display: flex;
+  margin-left: 50px
+}
+
+.homepage-hero-sub-btn-wrapper {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+}
